@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111 ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image:url("Amazon-Logo-500x313.png") ;
+    background-size:cover ;
+    height: 50px;
+    width: 100px;
+}
+/* box-2 */
+.first-icon{
+         color: #cccc;
+         font-size: 0.85rem;
+         margin-left: 15px;
+}
+.second-icon{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid whitesmoke;
+}
+/* box-3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+.Search-select{
+    background: color #f3f3f3;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 1rem;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+/* box-4 */
+span{
+    font-size:0.7rem;
+}
+.nav-second{
+  font-size: 0.85rem;
+  font: 700;
+}
+.nav-cart {
+    font-size: 3px;
+         
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.panel-option{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+         font-size: 0.9rem;
+         font-weight: 700;
+}
+.Hero-section{
+    background-image: url("hero-image.jpg");
+    background-size:cover;
+    height: 230px;
+    padding: 14px 18px 18px;
+    display: flex; 
+    align-items: flex-end; 
+    margin-bottom: 25px;
+    justify-content: center;
+}
+.hero-message{
+background-color: white;
+height: 40px;
+display: flex;
+text-align: center;
+color: #0f1111;
+justify-content: center;
+}
+.hero-message a{
+    color: #007185;
+    font-weight: 2rem;
+}
